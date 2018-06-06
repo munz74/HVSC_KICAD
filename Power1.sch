@@ -1,0 +1,160 @@
+EESchema Schematic File Version 3
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:microchip_dspic33dsc
+LIBS:User2
+LIBS:test1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4250 4950 1950 1550
+U 5A01BE07
+F0 "Sheet5A01B91F" 60
+F1 "file5A01BE07.sch" 60
+$EndSheet
+$Sheet
+S 7800 4900 2100 1500
+U 5A01D535
+F0 "Sheet5A01D534" 60
+F1 "Signal.sch" 60
+$EndSheet
+$Comp
+L L7805 U?
+U 1 1 5A021954
+P 9300 3750
+F 0 "U?" H 9150 3875 50  0000 C CNN
+F 1 "L7805" H 9300 3875 50  0000 L CNN
+F 2 "" H 9325 3600 50  0001 L CIN
+F 3 "" H 9300 3700 50  0001 C CNN
+	1    9300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD7175-8 U?
+U 1 1 5A02195B
+P 12150 2200
+F 0 "U?" H 10950 2100 60  0000 C CNN
+F 1 "AD7175-8" H 11100 2000 60  0000 C CNN
+F 2 "SMD_Packages:LFCSP-40-1EP" H 12150 1700 60  0001 C CNN
+F 3 "" H 12150 1700 60  0001 C CNN
+	1    12150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal Y?
+U 1 1 5A021962
+P 12750 4750
+F 0 "Y?" H 12750 4900 50  0000 C CNN
+F 1 "16M" H 12750 4600 50  0000 C CNN
+F 2 "" H 12750 4750 50  0001 C CNN
+F 3 "" H 12750 4750 50  0001 C CNN
+	1    12750 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 4400 12850 4550
+Wire Wire Line
+	12850 4550 12900 4550
+Wire Wire Line
+	12900 4550 12900 5050
+Wire Wire Line
+	12600 4550 12600 5050
+Wire Wire Line
+	12600 4550 12650 4550
+Wire Wire Line
+	12650 4550 12650 4400
+$Comp
+L C C?
+U 1 1 5A02196F
+P 12900 5200
+F 0 "C?" H 12925 5300 50  0000 L CNN
+F 1 "20p" H 12925 5100 50  0000 L CNN
+F 2 "" H 12938 5050 50  0001 C CNN
+F 3 "" H 12900 5200 50  0001 C CNN
+	1    12900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A021976
+P 12600 5200
+F 0 "C?" H 12625 5300 50  0000 L CNN
+F 1 "20p" H 12625 5100 50  0000 L CNN
+F 2 "" H 12638 5050 50  0001 C CNN
+F 3 "" H 12600 5200 50  0001 C CNN
+	1    12600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A02197D
+P 12900 5550
+F 0 "#PWR?" H 12900 5300 50  0001 C CNN
+F 1 "GND" H 12900 5400 50  0000 C CNN
+F 2 "" H 12900 5550 50  0001 C CNN
+F 3 "" H 12900 5550 50  0001 C CNN
+	1    12900 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A021983
+P 12600 5550
+F 0 "#PWR?" H 12600 5300 50  0001 C CNN
+F 1 "GND" H 12600 5400 50  0000 C CNN
+F 2 "" H 12600 5550 50  0001 C CNN
+F 3 "" H 12600 5550 50  0001 C CNN
+	1    12600 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 12900 4750
+Connection ~ 12600 4750
+Wire Wire Line
+	12600 5350 12600 5550
+Wire Wire Line
+	12900 5350 12900 5550
+Wire Wire Line
+	10750 2600 10150 2600
+$EndSCHEMATC
