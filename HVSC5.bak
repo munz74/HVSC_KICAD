@@ -238,6 +238,7 @@ LIBS:dk_TVS-Diodes
 LIBS:dk_TVS-Mixed-Technology
 LIBS:dk_USB-DVI-HDMI-Connectors
 LIBS:symbols
+LIBS:HVSC5-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268

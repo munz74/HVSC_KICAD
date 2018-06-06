@@ -1217,9 +1217,6 @@ Wire Wire Line
 	2900 9100 2900 9150
 Connection ~ 1900 9100
 Wire Wire Line
-	2650 9150 2650 9100
-Connection ~ 2650 9100
-Wire Wire Line
 	2400 9150 2400 9100
 Connection ~ 2400 9100
 Wire Wire Line
@@ -1230,9 +1227,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 9500 2900 9450
 Connection ~ 1900 9500
-Wire Wire Line
-	2650 9450 2650 9500
-Connection ~ 2650 9500
 Wire Wire Line
 	2400 9450 2400 9500
 Connection ~ 2400 9500
@@ -1536,4 +1530,6 @@ Wire Wire Line
 	1750 6850 1900 6850
 Wire Wire Line
 	1750 7300 1900 7300
+Text Notes 8600 5550 0    60   ~ 0
+RX Selection : R14 for optic interface, R12 RS232C interface. \nBetween them only one shoud be shorted
 $EndSCHEMATC
