@@ -492,4 +492,18 @@ F 3 "" H 4150 7300 50  0001 C CNN
 	1    4150 7350
 	1    0    0    -1  
 $EndComp
+Text Notes 7600 1850 0    118  ~ 24
+1st Soldering
+Text Notes 5650 1850 0    118  ~ 24
+1st Soldering
+Text Notes 2050 5400 0    118  ~ 24
+1st Soldering
+Text Notes 3800 1900 0    118  ~ 24
+2nd Soldering
+Text Notes 9200 3900 0    118  ~ 24
+3rd Soldering
+Text Notes 3750 4250 0    118  ~ 24
+4th Soldering
+Text Notes 2050 1900 0    118  ~ 24
+5th Soldering
 $EndSCHEMATC
