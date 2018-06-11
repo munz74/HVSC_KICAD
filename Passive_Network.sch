@@ -455,16 +455,14 @@ Connection ~ 7700 2400
 Text Label 7800 1200 0    60   ~ 0
 P30V
 Wire Wire Line
-	8700 1850 8700 1200
-Wire Wire Line
-	8700 1200 9150 1200
+	8450 1200 9150 1200
 Text Label 8800 1200 0    60   ~ 0
 P600V
 Text Label 6250 1200 0    60   ~ 0
 P10V
 Text Label 7850 4600 0    60   ~ 0
 N30V
-Text Label 8800 4600 0    60   ~ 0
+Text Label 8550 4600 0    60   ~ 0
 N600V
 Text Label 6300 4600 0    60   ~ 0
 N10V
@@ -568,7 +566,6 @@ Wire Wire Line
 	6350 5750 7150 5750
 Text Label 6750 5750 0    60   ~ 0
 Monitor
-Connection ~ 8700 1850
 $Comp
 L C C55
 U 1 1 5B07EDB8
@@ -1518,12 +1515,12 @@ $EndComp
 $Comp
 L R R139
 U 1 1 5B0CFCAF
-P 8350 2150
-F 0 "R139" V 8400 2350 50  0000 C CNN
-F 1 "10k" V 8350 2150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8280 2150 50  0001 C CNN
-F 3 "" H 8350 2150 50  0001 C CNN
-	1    8350 2150
+P 8350 1700
+F 0 "R139" V 8400 1900 50  0000 C CNN
+F 1 "10k" V 8350 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8280 1700 50  0001 C CNN
+F 3 "" H 8350 1700 50  0001 C CNN
+	1    8350 1700
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1551,8 +1548,6 @@ Wire Wire Line
 	8250 1850 8250 2000
 Wire Wire Line
 	8250 2300 8250 2400
-Wire Wire Line
-	8350 2400 8350 2300
 $Comp
 L R R123
 U 1 1 5B0CFCC5
@@ -1589,12 +1584,12 @@ $EndComp
 $Comp
 L R R141
 U 1 1 5B0CFCDA
-P 8450 2150
-F 0 "R141" V 8500 2350 50  0000 C CNN
-F 1 "10k" V 8450 2150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8380 2150 50  0001 C CNN
-F 3 "" H 8450 2150 50  0001 C CNN
-	1    8450 2150
+P 8450 1700
+F 0 "R141" V 8500 1900 50  0000 C CNN
+F 1 "10k" V 8450 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8380 1700 50  0001 C CNN
+F 3 "" H 8450 1700 50  0001 C CNN
+	1    8450 1700
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1617,7 +1612,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 1500 8250 1550
 Wire Wire Line
-	8350 2000 8350 1850
+	8350 1550 8350 1400
 Wire Wire Line
 	7950 2400 7950 2300
 Wire Wire Line
@@ -1632,11 +1627,8 @@ Text Notes 7900 2650 0    60   ~ 0
 95kohm\n
 Wire Wire Line
 	8450 2400 8450 2300
-Connection ~ 8350 2400
 Wire Wire Line
-	8350 1850 8900 1850
-Wire Wire Line
-	8450 1850 8450 2000
+	8450 1200 8450 1550
 $Comp
 L R R143
 U 1 1 5B0D114F
@@ -1662,7 +1654,7 @@ F 3 "" H 9000 2400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8900 1850 8900 2250
+	8900 1400 8900 2250
 Wire Wire Line
 	9000 2650 8900 2650
 Wire Wire Line
@@ -1670,7 +1662,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 2100 9000 2250
 Connection ~ 8900 2100
-Connection ~ 8450 1850
+Connection ~ 8450 1400
 Connection ~ 9000 2650
 Text Notes 8550 2450 0    60   ~ 0
 5kohm\n
@@ -1685,10 +1677,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 4600 8150 4600
 Connection ~ 7700 3400
-Wire Wire Line
-	8700 3950 8700 4600
-Wire Wire Line
-	8700 4600 9150 4600
 $Comp
 L R R23
 U 1 1 5B0D5DAA
@@ -1705,7 +1693,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 4550 4300 4550
 Connection ~ 3850 4250
-Connection ~ 8700 3950
 $Comp
 L R R27
 U 1 1 5B0D5DB7
@@ -2504,12 +2491,12 @@ $EndComp
 $Comp
 L R R140
 U 1 1 5B0D5F95
-P 8350 3650
-F 0 "R140" V 8400 3850 50  0000 C CNN
-F 1 "10k" V 8350 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8280 3650 50  0001 C CNN
-F 3 "" H 8350 3650 50  0001 C CNN
-	1    8350 3650
+P 8350 4100
+F 0 "R140" V 8400 4300 50  0000 C CNN
+F 1 "10k" V 8350 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8280 4100 50  0001 C CNN
+F 3 "" H 8350 4100 50  0001 C CNN
+	1    8350 4100
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2537,8 +2524,6 @@ Wire Wire Line
 	8250 3950 8250 3800
 Wire Wire Line
 	8250 3500 8250 3400
-Wire Wire Line
-	8350 3400 8350 3500
 $Comp
 L R R126
 U 1 1 5B0D5FAB
@@ -2575,12 +2560,12 @@ $EndComp
 $Comp
 L R R142
 U 1 1 5B0D5FC0
-P 8450 3650
-F 0 "R142" V 8500 3850 50  0000 C CNN
-F 1 "10k" V 8450 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8380 3650 50  0001 C CNN
-F 3 "" H 8450 3650 50  0001 C CNN
-	1    8450 3650
+P 8450 4100
+F 0 "R142" V 8500 4300 50  0000 C CNN
+F 1 "10k" V 8450 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8380 4100 50  0001 C CNN
+F 3 "" H 8450 4100 50  0001 C CNN
+	1    8450 4100
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2603,7 +2588,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 4300 8250 4250
 Wire Wire Line
-	8350 3800 8350 3950
+	8350 4250 8350 4400
 Wire Wire Line
 	7950 3400 7950 3500
 Wire Wire Line
@@ -2618,11 +2603,6 @@ Text Notes 7900 3250 0    60   ~ 0
 95kohm\n
 Wire Wire Line
 	8450 3400 8450 3500
-Connection ~ 8350 3400
-Wire Wire Line
-	8350 3950 8900 3950
-Wire Wire Line
-	8450 3950 8450 3800
 $Comp
 L R R144
 U 1 1 5B0D5FE0
@@ -2648,15 +2628,13 @@ F 3 "" H 9000 3400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8900 3950 8900 3550
-Wire Wire Line
 	8900 3150 9000 3150
 Wire Wire Line
 	8900 3700 9000 3700
 Wire Wire Line
 	9000 3700 9000 3550
 Connection ~ 8900 3700
-Connection ~ 8450 3950
+Connection ~ 8450 4400
 Connection ~ 9000 3150
 Text Notes 8550 3400 0    60   ~ 0
 5kohm\n
@@ -2665,4 +2643,50 @@ Connection ~ 3200 3450
 Connection ~ 3200 2450
 Wire Wire Line
 	1350 2900 1400 2900
+$Comp
+L R R170
+U 1 1 5B1D8CAE
+P 8450 2150
+F 0 "R170" V 8500 2350 50  0000 C CNN
+F 1 "10k" V 8450 2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8380 2150 50  0001 C CNN
+F 3 "" H 8450 2150 50  0001 C CNN
+	1    8450 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8350 1850 8350 1950
+Wire Wire Line
+	8350 1950 8450 1950
+Wire Wire Line
+	8450 1850 8450 2000
+Connection ~ 8450 1950
+Wire Wire Line
+	8350 1400 8900 1400
+$Comp
+L R R171
+U 1 1 5B1DBB59
+P 8450 3650
+F 0 "R171" V 8500 3850 50  0000 C CNN
+F 1 "10k" V 8450 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8380 3650 50  0001 C CNN
+F 3 "" H 8450 3650 50  0001 C CNN
+	1    8450 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 3800 8450 3950
+Wire Wire Line
+	8450 3900 8350 3900
+Wire Wire Line
+	8350 3900 8350 3950
+Connection ~ 8450 3900
+Wire Wire Line
+	8450 4600 9000 4600
+Wire Wire Line
+	8350 4400 8900 4400
+Wire Wire Line
+	8450 4250 8450 4600
+Wire Wire Line
+	8900 4400 8900 3550
 $EndSCHEMATC
