@@ -356,12 +356,12 @@ Wire Wire Line
 $Comp
 L SW_Rotary3x4 SW2
 U 1 1 5B044819
-P 2000 6600
-F 0 "SW2" H 2050 7490 50  0000 C CNN
-F 1 "SW_Rotary3x4" H 2050 7399 50  0000 C CNN
-F 2 "" H 1900 7400 50  0001 C CNN
-F 3 "" H 1900 7400 50  0001 C CNN
-	1    2000 6600
+P 2200 6550
+F 0 "SW2" H 2200 5900 50  0000 C CNN
+F 1 "SW_Rotary3x4" H 2200 5800 50  0000 C CNN
+F 2 "" H 2100 7350 50  0001 C CNN
+F 3 "" H 2100 7350 50  0001 C CNN
+	1    2200 6550
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -602,21 +602,6 @@ F 3 "" H 7350 5650 50  0001 C CNN
 	1    7350 5650
 	1    0    0    1   
 $EndComp
-NoConn ~ 1500 5900
-NoConn ~ 1500 6000
-NoConn ~ 1500 6100
-NoConn ~ 1500 6200
-NoConn ~ 1500 6400
-NoConn ~ 1500 6500
-NoConn ~ 1500 6600
-NoConn ~ 1500 6700
-NoConn ~ 1500 6900
-NoConn ~ 1500 7000
-NoConn ~ 1500 7100
-NoConn ~ 1500 7200
-NoConn ~ 2400 7100
-NoConn ~ 2400 6100
-NoConn ~ 2400 6600
 $Comp
 L DIAC X5
 U 1 1 5B083C6E
@@ -2689,4 +2674,92 @@ Wire Wire Line
 	8450 4250 8450 4600
 Wire Wire Line
 	8900 4400 8900 3550
+Text Label 1400 6950 0    60   ~ 0
+N30V
+Text Label 1350 6850 0    60   ~ 0
+N600V
+Text Label 1400 7050 0    60   ~ 0
+N10V
+Text Label 1400 7150 0    60   ~ 0
+N1V
+Wire Wire Line
+	1250 7050 1700 7050
+Wire Wire Line
+	1250 6950 1700 6950
+Wire Wire Line
+	1250 7150 1700 7150
+Wire Wire Line
+	1250 6850 1700 6850
+Wire Wire Line
+	1250 6550 1700 6550
+Wire Wire Line
+	1250 6450 1700 6450
+Text Label 1350 6450 0    60   ~ 0
+P30V
+Wire Wire Line
+	1250 6350 1700 6350
+Text Label 1350 6350 0    60   ~ 0
+P600V
+Text Label 1350 6550 0    60   ~ 0
+P10V
+Wire Wire Line
+	1250 6650 1700 6650
+Text Label 1350 6650 0    60   ~ 0
+P1V
+Text Label 2700 6550 0    60   ~ 0
+Excite+
+Text Label 2700 7050 0    60   ~ 0
+Excite-
+Wire Wire Line
+	2600 7050 3150 7050
+Wire Wire Line
+	2600 6550 3150 6550
+Wire Wire Line
+	2600 6050 3050 6050
+Text Label 2700 6050 0    60   ~ 0
+J7_GND
+Wire Wire Line
+	1250 5850 1700 5850
+Text Label 1350 5850 0    60   ~ 0
+J7_600V
+Wire Wire Line
+	1250 5950 1700 5950
+Text Label 1350 5950 0    60   ~ 0
+J7_30V
+Wire Wire Line
+	1250 6050 1700 6050
+Text Label 1350 6050 0    60   ~ 0
+J7_10V
+Wire Wire Line
+	1250 6150 1700 6150
+Text Label 1350 6150 0    60   ~ 0
+J7_2V
+Wire Notes Line
+	900  6250 1650 6250
+Wire Notes Line
+	1650 6250 1650 7350
+Wire Notes Line
+	1650 7350 900  7350
+Wire Notes Line
+	900  7350 900  6250
+Wire Notes Line
+	2600 6350 3600 6350
+Wire Notes Line
+	3600 6350 3600 7200
+Wire Notes Line
+	3600 7200 2600 7200
+Wire Notes Line
+	2600 7200 2600 6350
+Wire Notes Line
+	1050 5700 3250 5700
+Wire Notes Line
+	3250 5700 3250 6200
+Wire Notes Line
+	3250 6200 1050 6200
+Wire Notes Line
+	1050 6200 1050 5700
+Text Notes 1150 7350 0    60   ~ 0
+J20\n
+Text Notes 3300 6850 0    60   ~ 0
+J25
 $EndSCHEMATC
