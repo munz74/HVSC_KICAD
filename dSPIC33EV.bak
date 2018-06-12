@@ -388,7 +388,7 @@ F 3 "" H 11900 8450 50  0001 C CNN
 $EndComp
 Text Label 10750 7250 0    60   ~ 0
 TXD
-Text Label 10200 7650 0    60   ~ 0
+Text Label 9250 7550 0    60   ~ 0
 RXD
 Text Label 5750 3950 0    60   ~ 0
 TXD
@@ -774,8 +774,6 @@ F 3 "" H 11250 1900 50  0001 C CNN
 $EndComp
 Text Label 11150 2900 0    60   ~ 0
 TXD
-Text Label 11200 4750 0    60   ~ 0
-RXD
 $Comp
 L GND #PWR068
 U 1 1 5ACE5B22
@@ -1082,28 +1080,6 @@ F 3 "" H 11900 5200 50  0001 C CNN
 	1    11900 5200
 	-1   0    0    -1  
 $EndComp
-$Comp
-L R R12
-U 1 1 5B07D647
-P 10700 7650
-F 0 "R12" V 10780 7650 50  0000 C CNN
-F 1 "0" V 10700 7650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10630 7650 50  0001 C CNN
-F 3 "" H 10700 7650 50  0001 C CNN
-	1    10700 7650
-	0    1    1    0   
-$EndComp
-$Comp
-L R R14
-U 1 1 5B07EC31
-P 11600 4750
-F 0 "R14" V 11680 4750 50  0000 C CNN
-F 1 "0" V 11600 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 11530 4750 50  0001 C CNN
-F 3 "" H 11600 4750 50  0001 C CNN
-	1    11600 4750
-	0    1    1    0   
-$EndComp
 NoConn ~ 12300 3100
 NoConn ~ 11500 3100
 NoConn ~ 11500 3200
@@ -1183,7 +1159,7 @@ Wire Wire Line
 Wire Wire Line
 	11100 7250 10600 7250
 Wire Wire Line
-	10550 7650 10050 7650
+	9600 7550 9100 7550
 Wire Wire Line
 	12700 7250 14550 7250
 Wire Wire Line
@@ -1327,8 +1303,6 @@ Wire Wire Line
 Wire Wire Line
 	11500 2900 11000 2900
 Wire Wire Line
-	11000 4750 11450 4750
-Wire Wire Line
 	13050 2900 12800 2900
 Wire Wire Line
 	12800 2900 12800 3400
@@ -1468,9 +1442,9 @@ Wire Wire Line
 Wire Wire Line
 	11900 5150 11900 5200
 Wire Wire Line
-	10850 7650 11100 7650
+	10000 7650 11100 7650
 Wire Wire Line
-	11750 4750 12150 4750
+	10350 4750 12150 4750
 Wire Wire Line
 	9500 3750 9500 4300
 Connection ~ 4900 4050
@@ -1530,6 +1504,19 @@ Wire Wire Line
 	1750 6850 1900 6850
 Wire Wire Line
 	1750 7300 1900 7300
-Text Notes 8600 5550 0    60   ~ 0
-RX Selection : R14 for optic interface, R12 RS232C interface. \nBetween them only one shoud be shorted
+$Comp
+L SW_SPDT SW?
+U 1 1 5B1F1A40
+P 9800 7550
+F 0 "SW?" H 9800 7835 50  0000 C CNN
+F 1 "SW_SPDT" H 9800 7744 50  0000 C CNN
+F 2 "USER:SW_E-Switch_EG2219_DPDT" H 9800 7550 50  0001 C CNN
+F 3 "" H 9800 7550 50  0001 C CNN
+	1    9800 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 4750 10350 7450
+Wire Wire Line
+	10350 7450 10000 7450
 $EndSCHEMATC
