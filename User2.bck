@@ -6,6 +6,12 @@ K MOSFET Driver IGBT Driver Optocoupler
 F http://www.avagotech.com/docs/AV02-2928EN
 $ENDCMP
 #
+$CMP AQV258
+D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6
+K MOSFET Driver IGBT Driver Optocoupler
+F http://www.avagotech.com/docs/AV02-2928EN
+$ENDCMP
+#
 $CMP DPBW06
 D Isolated 1W Dual output DC/DC Converter 5V Input +/-12V Output, DIP Package
 K Murata DC/DC

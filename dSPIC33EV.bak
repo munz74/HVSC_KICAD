@@ -1049,14 +1049,14 @@ $Comp
 L CONN_01X05 J7
 U 1 1 5B04EF67
 P 8800 3250
-F 0 "J7" H 8878 3291 50  0000 L CNN
-F 1 "CONN_01X05" H 8878 3200 50  0000 L CNN
+F 0 "J7" H 8750 2950 50  0000 L CNN
+F 1 "CONN_01X05" V 8900 3000 50  0000 L CNN
 F 2 "USER:M53259-5" H 8800 3250 50  0001 C CNN
 F 3 "" H 8800 3250 50  0001 C CNN
 	1    8800 3250
 	1    0    0    1   
 $EndComp
-Text Notes 8900 3100 0    60   ~ 0
+Text Notes 8950 2950 0    60   ~ 0
 To selector
 $Comp
 L C C37
@@ -1543,4 +1543,14 @@ Wire Wire Line
 Wire Wire Line
 	10500 8150 10500 7650
 Connection ~ 10500 7650
+Text Notes 9000 3200 0    60   ~ 0
+600V
+Text Notes 9000 3300 0    60   ~ 0
+30V
+Text Notes 9000 3400 0    60   ~ 0
+10V
+Text Notes 9000 3500 0    60   ~ 0
+2V
+Text Notes 9000 3100 0    60   ~ 0
+GND
 $EndSCHEMATC

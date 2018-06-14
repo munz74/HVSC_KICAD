@@ -423,14 +423,11 @@ Wire Wire Line
 Wire Wire Line
 	2250 3950 2250 4150
 Wire Wire Line
-	2000 4150 2550 4150
-Wire Wire Line
 	2550 4150 2550 4100
 Wire Wire Line
 	2350 3700 2400 3700
 Wire Wire Line
 	2350 3450 2350 3700
-Connection ~ 2250 4150
 Wire Wire Line
 	3550 2300 3550 2950
 $Comp
@@ -489,7 +486,7 @@ F 3 "" H 4700 2300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4850 2300 5100 2300
-Connection ~ 4400 3800
+Connection ~ 5500 3800
 Wire Wire Line
 	4150 3800 5700 3800
 Text HLabel 10100 3800 2    60   Input ~ 0
@@ -497,12 +494,12 @@ Sine
 $Comp
 L CONN_01X01 J21
 U 1 1 5B077AF7
-P 4400 3550
-F 0 "J21" H 4479 3592 50  0000 L CNN
-F 1 "test" H 4479 3501 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 4400 3550 50  0001 C CNN
-F 3 "~" H 4400 3550 50  0001 C CNN
-	1    4400 3550
+P 5500 3550
+F 0 "J21" H 5579 3592 50  0000 L CNN
+F 1 "test" H 5579 3501 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 5500 3550 50  0001 C CNN
+F 3 "~" H 5500 3550 50  0001 C CNN
+	1    5500 3550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -521,19 +518,17 @@ Wire Wire Line
 NoConn ~ 4150 4000
 NoConn ~ 3050 3800
 NoConn ~ 3050 3600
-NoConn ~ 4150 3400
-NoConn ~ 4150 3550
 Wire Wire Line
-	1550 3600 1550 4150
+	1550 3400 1550 3950
 $Comp
 L VCC #PWR0118
 U 1 1 5B093B38
-P 1550 3600
-F 0 "#PWR0118" H 1550 3450 50  0001 C CNN
-F 1 "VCC" H 1567 3773 50  0000 C CNN
-F 2 "" H 1550 3600 50  0001 C CNN
-F 3 "" H 1550 3600 50  0001 C CNN
-	1    1550 3600
+P 1550 3400
+F 0 "#PWR0118" H 1550 3250 50  0001 C CNN
+F 1 "VCC" H 1567 3573 50  0000 C CNN
+F 2 "" H 1550 3400 50  0001 C CNN
+F 3 "" H 1550 3400 50  0001 C CNN
+	1    1550 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -696,25 +691,25 @@ F 3 "" H 9650 3250 50  0001 C CNN
 $EndComp
 Connection ~ 6150 4900
 Wire Wire Line
-	4400 3800 4400 3750
+	5500 3800 5500 3750
 $Comp
 L R R147
 U 1 1 5B097651
-P 1850 4150
-F 0 "R147" V 1750 4150 50  0000 C CNN
-F 1 "1k" V 1850 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1780 4150 50  0001 C CNN
-F 3 "" H 1850 4150 50  0001 C CNN
-	1    1850 4150
+P 1850 3950
+F 0 "R147" V 1750 3950 50  0000 C CNN
+F 1 "1k" V 1850 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1780 3950 50  0001 C CNN
+F 3 "" H 1850 3950 50  0001 C CNN
+	1    1850 3950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1550 4150 1700 4150
+	1550 3950 1700 3950
 Wire Wire Line
-	2250 3950 2400 3950
+	2000 3950 2400 3950
 Wire Wire Line
 	5700 2550 6750 2550
-Text Label 5050 3800 0    60   ~ 0
+Text Label 4850 3800 0    60   ~ 0
 Sine_output
 $Comp
 L LM358 U18
@@ -1024,4 +1019,25 @@ F 3 "" H 3300 2850 50  0001 C CNN
 $EndComp
 Text Notes 8750 5400 0    60   ~ 0
 Pair2 : R157, R160\nPair2 : R158, R159\nonly one pair needs to be soldered 
+$Comp
+L POT RV7
+U 1 1 5B207D04
+P 4400 3400
+F 0 "RV7" V 4400 3650 50  0000 C CNN
+F 1 "500" V 4400 3400 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296W" H 4400 3400 50  0001 C CNN
+F 3 "" H 4400 3400 50  0001 C CNN
+	1    4400 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 3400 4250 3400
+Wire Wire Line
+	4150 3550 4550 3550
+Wire Wire Line
+	4550 3550 4550 3400
+Connection ~ 4400 3550
+Connection ~ 2250 3950
+Wire Wire Line
+	2250 4150 2550 4150
 $EndSCHEMATC

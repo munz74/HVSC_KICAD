@@ -24,4 +24,10 @@ K NPN Transistor
 F http://www.fairchildsemi.com/ds/PN/PN2222A.pdf
 $ENDCMP
 #
+$CMP SW_Rotary3x4
+D 3 rotary switches with 4 positions
+K rotary switch
+F http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf
+$ENDCMP
+#
 #End Doc Library
