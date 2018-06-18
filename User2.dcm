@@ -24,6 +24,11 @@ K NPN Transistor
 F http://www.fairchildsemi.com/ds/PN/PN2222A.pdf
 $ENDCMP
 #
+$CMP SW_DPDT_x2
+D Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
 $CMP SW_Rotary3x4
 D 3 rotary switches with 4 positions
 K rotary switch
