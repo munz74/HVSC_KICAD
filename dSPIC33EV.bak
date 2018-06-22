@@ -866,9 +866,9 @@ F 3 "" H 3150 8100 50  0001 C CNN
 	1    3150 8100
 	0    -1   1    0   
 $EndComp
-Text Label 4300 7550 2    60   ~ 0
+Text Label 5250 8550 2    60   ~ 0
 TXD
-Text Label 4300 7100 2    60   ~ 0
+Text Label 5250 8100 2    60   ~ 0
 RXD
 $Comp
 L CP1 C28
