@@ -1,19 +1,9 @@
-update=06/06/2018 10:10:05
+update=27/06/2018 11:43:47
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -276,5 +266,15 @@ LibName236=C:/Users/lees8/Documents/KiCAD/digikey-kicad-library-master/digikey-s
 LibName237=C:/Users/lees8/Documents/KiCAD/digikey-kicad-library-master/digikey-symbols/dk_TVS-Mixed-Technology
 LibName238=C:/Users/lees8/Documents/KiCAD/digikey-kicad-library-master/digikey-symbols/dk_USB-DVI-HDMI-Connectors
 LibName239=C:/Users/lees8/Documents/KiCAD/footprint_library/symbols
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [general]
 version=1
