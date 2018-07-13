@@ -964,7 +964,7 @@ L PGB1010603MR D18
 U 1 1 5B084BB4
 P 5500 1400
 F 0 "D18" V 5447 1503 60  0000 L CNN
-F 1 "SMDJ6.5CA" H 5250 1250 60  0000 L CNN
+F 1 "SMDJ10" H 5250 1250 60  0000 L CNN
 F 2 "Diodes_SMD:D_SMC_Handsoldering" H 5700 1600 60  0001 L CNN
 F 3 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5700 1700 60  0001 L CNN
 F 4 "F2594CT-ND" H 5700 1800 60  0001 L CNN "Digi-Key_PN"
@@ -984,7 +984,7 @@ L PGB1010603MR D20
 U 1 1 5B084C0F
 P 5500 4050
 F 0 "D20" V 5447 4153 60  0000 L CNN
-F 1 "SMDJ6.5CA" H 5300 3900 60  0000 L CNN
+F 1 "SMDJ10" H 5300 3900 60  0000 L CNN
 F 2 "Diodes_SMD:D_SMC_Handsoldering" H 5700 4250 60  0001 L CNN
 F 3 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5700 4350 60  0001 L CNN
 F 4 "F2594CT-ND" H 5700 4450 60  0001 L CNN "Digi-Key_PN"
@@ -1004,7 +1004,7 @@ L PGB1010603MR D19
 U 1 1 5B084C7B
 P 5500 2750
 F 0 "D19" V 5447 2853 60  0000 L CNN
-F 1 "SMDJ6.5CA" V 5553 2853 60  0000 L CNN
+F 1 "SMDJ10" V 5553 2853 60  0000 L CNN
 F 2 "Diodes_SMD:D_SMC_Handsoldering" H 5700 2950 60  0001 L CNN
 F 3 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5700 3050 60  0001 L CNN
 F 4 "F2594CT-ND" H 5700 3150 60  0001 L CNN "Digi-Key_PN"

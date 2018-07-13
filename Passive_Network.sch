@@ -258,7 +258,7 @@ L R R32
 U 1 1 5A051DBD
 P 3900 5100
 F 0 "R32" V 3980 5100 50  0000 C CNN
-F 1 "300k" V 3900 5100 50  0000 C CNN
+F 1 "150k" V 3900 5100 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" V 3830 5100 50  0001 C CNN
 F 3 "" H 3900 5100 50  0001 C CNN
 	1    3900 5100
@@ -377,12 +377,12 @@ $EndComp
 $Comp
 L GNDREF #PWR0113
 U 1 1 5B046D38
-P 4250 6000
-F 0 "#PWR0113" H 4250 5750 50  0001 C CNN
-F 1 "GNDREF" H 4255 5827 50  0000 C CNN
-F 2 "" H 4250 6000 50  0001 C CNN
-F 3 "" H 4250 6000 50  0001 C CNN
-	1    4250 6000
+P 4850 6000
+F 0 "#PWR0113" H 4850 5750 50  0001 C CNN
+F 1 "GNDREF" H 4855 5827 50  0000 C CNN
+F 2 "" H 4850 6000 50  0001 C CNN
+F 3 "" H 4850 6000 50  0001 C CNN
+	1    4850 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -523,21 +523,21 @@ $EndComp
 $Comp
 L PGB1010603MR D8
 U 1 1 5B0844BB
-P 4250 5600
-F 0 "D8" V 4197 5703 60  0000 L CNN
-F 1 "SMDJ100.5CA" V 4303 5703 60  0000 L CNN
-F 2 "Diodes_SMD:D_SMC_Handsoldering" H 4450 5800 60  0001 L CNN
-F 3 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 4450 5900 60  0001 L CNN
-F 4 "F2594CT-ND" H 4450 6000 60  0001 L CNN "Digi-Key_PN"
-F 5 "PGB1010603MR" H 4450 6100 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 4450 6200 60  0001 L CNN "Category"
-F 7 "TVS - Diodes" H 4450 6300 60  0001 L CNN "Family"
-F 8 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 4450 6400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/littelfuse-inc/PGB1010603MR/F2594CT-ND/813072" H 4450 6500 60  0001 L CNN "DK_Detail_Page"
-F 10 "TVS DIODE 24VWM 150VC 0603" H 4450 6600 60  0001 L CNN "Description"
-F 11 "Littelfuse Inc." H 4450 6700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4450 6800 60  0001 L CNN "Status"
-	1    4250 5600
+P 4850 5600
+F 0 "D8" V 4797 5703 60  0000 L CNN
+F 1 "SMDJ100.5CA" V 4903 5703 60  0000 L CNN
+F 2 "Diodes_SMD:D_SMC_Handsoldering" H 5050 5800 60  0001 L CNN
+F 3 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5050 5900 60  0001 L CNN
+F 4 "F2594CT-ND" H 5050 6000 60  0001 L CNN "Digi-Key_PN"
+F 5 "PGB1010603MR" H 5050 6100 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 5050 6200 60  0001 L CNN "Category"
+F 7 "TVS - Diodes" H 5050 6300 60  0001 L CNN "Family"
+F 8 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5050 6400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/littelfuse-inc/PGB1010603MR/F2594CT-ND/813072" H 5050 6500 60  0001 L CNN "DK_Detail_Page"
+F 10 "TVS DIODE 24VWM 150VC 0603" H 5050 6600 60  0001 L CNN "Description"
+F 11 "Littelfuse Inc." H 5050 6700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5050 6800 60  0001 L CNN "Status"
+	1    4850 5600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2095,43 +2095,43 @@ $EndComp
 $Comp
 L R R182
 U 1 1 5B33D99D
-P 4900 5100
-F 0 "R182" V 4980 5100 50  0000 C CNN
-F 1 "300k" V 4900 5100 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" V 4830 5100 50  0001 C CNN
-F 3 "" H 4900 5100 50  0001 C CNN
-	1    4900 5100
+P 4500 5100
+F 0 "R182" V 4580 5100 50  0000 C CNN
+F 1 "150k" V 4500 5100 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" V 4430 5100 50  0001 C CNN
+F 3 "" H 4500 5100 50  0001 C CNN
+	1    4500 5100
 	0    1    1    0   
 $EndComp
 $Comp
 L GNDREF #PWR01
 U 1 1 5B33D9A4
-P 5450 6000
-F 0 "#PWR01" H 5450 5750 50  0001 C CNN
-F 1 "GNDREF" H 5455 5827 50  0000 C CNN
-F 2 "" H 5450 6000 50  0001 C CNN
-F 3 "" H 5450 6000 50  0001 C CNN
-	1    5450 6000
+P 5550 6000
+F 0 "#PWR01" H 5550 5750 50  0001 C CNN
+F 1 "GNDREF" H 5555 5827 50  0000 C CNN
+F 2 "" H 5550 6000 50  0001 C CNN
+F 3 "" H 5550 6000 50  0001 C CNN
+	1    5550 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L PGB1010603MR D15
 U 1 1 5B33D9B6
-P 5450 5600
-F 0 "D15" V 5397 5703 60  0000 L CNN
-F 1 "SMDJ6.5CA" V 5503 5703 60  0000 L CNN
-F 2 "Diodes_SMD:D_SMC_Handsoldering" H 5650 5800 60  0001 L CNN
-F 3 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5650 5900 60  0001 L CNN
-F 4 "F2594CT-ND" H 5650 6000 60  0001 L CNN "Digi-Key_PN"
-F 5 "PGB1010603MR" H 5650 6100 60  0001 L CNN "MPN"
-F 6 "Circuit Protection" H 5650 6200 60  0001 L CNN "Category"
-F 7 "TVS - Diodes" H 5650 6300 60  0001 L CNN "Family"
-F 8 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5650 6400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/littelfuse-inc/PGB1010603MR/F2594CT-ND/813072" H 5650 6500 60  0001 L CNN "DK_Detail_Page"
-F 10 "TVS DIODE 24VWM 150VC 0603" H 5650 6600 60  0001 L CNN "Description"
-F 11 "Littelfuse Inc." H 5650 6700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5650 6800 60  0001 L CNN "Status"
-	1    5450 5600
+P 5550 5600
+F 0 "D15" V 5497 5703 60  0000 L CNN
+F 1 "SMDJ6.5CA" V 5603 5703 60  0000 L CNN
+F 2 "Diodes_SMD:D_SMC_Handsoldering" H 5750 5800 60  0001 L CNN
+F 3 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5750 5900 60  0001 L CNN
+F 4 "F2594CT-ND" H 5750 6000 60  0001 L CNN "Digi-Key_PN"
+F 5 "PGB1010603MR" H 5750 6100 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 5750 6200 60  0001 L CNN "Category"
+F 7 "TVS - Diodes" H 5750 6300 60  0001 L CNN "Family"
+F 8 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5750 6400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/littelfuse-inc/PGB1010603MR/F2594CT-ND/813072" H 5750 6500 60  0001 L CNN "DK_Detail_Page"
+F 10 "TVS DIODE 24VWM 150VC 0603" H 5750 6600 60  0001 L CNN "Description"
+F 11 "Littelfuse Inc." H 5750 6700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5750 6800 60  0001 L CNN "Status"
+	1    5550 5600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2167,12 +2167,9 @@ Wire Wire Line
 Wire Wire Line
 	3200 5100 3750 5100
 Wire Wire Line
-	5050 5100 6250 5100
+	4650 5100 6250 5100
 Wire Wire Line
-	4250 5900 4250 6000
-Wire Wire Line
-	4250 5300 4250 5100
-Connection ~ 4250 5100
+	4850 5900 4850 6000
 Wire Wire Line
 	9250 2550 9250 3250
 Wire Wire Line
@@ -2905,12 +2902,15 @@ Wire Wire Line
 Connection ~ 4200 4250
 Connection ~ 3850 3350
 Wire Wire Line
-	4050 5100 4750 5100
+	4050 5100 4350 5100
 Wire Wire Line
-	5450 5900 5450 6000
+	5550 5900 5550 6000
 Wire Wire Line
-	5450 5300 5450 5100
-Connection ~ 5450 5100
+	5550 5300 5550 5100
+Connection ~ 5550 5100
 Wire Wire Line
 	3450 3350 3450 3450
+Wire Wire Line
+	4850 5300 4850 5100
+Connection ~ 4850 5100
 $EndSCHEMATC

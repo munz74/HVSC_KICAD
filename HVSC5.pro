@@ -1,4 +1,4 @@
-update=27/06/2018 11:43:47
+update=13/07/2018 09:51:47
 version=1
 last_client=kicad
 [cvpcb]
@@ -266,6 +266,8 @@ LibName236=C:/Users/lees8/Documents/KiCAD/digikey-kicad-library-master/digikey-s
 LibName237=C:/Users/lees8/Documents/KiCAD/digikey-kicad-library-master/digikey-symbols/dk_TVS-Mixed-Technology
 LibName238=C:/Users/lees8/Documents/KiCAD/digikey-kicad-library-master/digikey-symbols/dk_USB-DVI-HDMI-Connectors
 LibName239=C:/Users/lees8/Documents/KiCAD/footprint_library/symbols
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -276,5 +278,3 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
-[general]
-version=1
