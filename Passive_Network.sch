@@ -525,7 +525,7 @@ L PGB1010603MR D8
 U 1 1 5B0844BB
 P 4850 5600
 F 0 "D8" V 4797 5703 60  0000 L CNN
-F 1 "SMDJ100.5CA" V 4903 5703 60  0000 L CNN
+F 1 "SMDJ6.5CA" V 4903 5703 60  0000 L CNN
 F 2 "Diodes_SMD:D_SMC_Handsoldering" H 5050 5800 60  0001 L CNN
 F 3 "http://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5050 5900 60  0001 L CNN
 F 4 "F2594CT-ND" H 5050 6000 60  0001 L CNN "Digi-Key_PN"
