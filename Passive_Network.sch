@@ -2785,7 +2785,6 @@ Connection ~ 9150 3700
 Connection ~ 8700 4400
 Connection ~ 9250 3150
 Connection ~ 9250 2900
-Connection ~ 3200 3450
 Connection ~ 3200 2450
 Wire Wire Line
 	1350 2900 1400 2900

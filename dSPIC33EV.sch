@@ -1044,7 +1044,7 @@ $EndComp
 Text HLabel 5200 2900 0    60   Input ~ 0
 Sine_ON
 Text HLabel 5200 3000 0    60   Input ~ 0
-Wire_Break
+Sine_APP
 $Comp
 L CONN_01X05 J7
 U 1 1 5B04EF67
@@ -1087,7 +1087,6 @@ NoConn ~ 12150 4550
 NoConn ~ 12150 4850
 NoConn ~ 13150 4850
 NoConn ~ 13150 4550
-NoConn ~ 5800 3200
 NoConn ~ 7150 4100
 $Comp
 L CONN_COAXIAL J8
@@ -1571,4 +1570,8 @@ Wire Wire Line
 Wire Wire Line
 	9700 8350 9350 8350
 Connection ~ 9350 8350
+Text HLabel 5200 3200 0    60   Input ~ 0
+Wire_Break
+Wire Wire Line
+	5800 3200 5200 3200
 $EndSCHEMATC

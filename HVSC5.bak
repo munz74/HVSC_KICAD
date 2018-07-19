@@ -254,7 +254,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5650 2000 1400 1300
+S 5650 2000 1400 1150
 U 5A0388B7
 F0 "ADC7175" 60
 F1 "file5A0388B6.sch" 60
@@ -281,6 +281,7 @@ F6 "~ERROR" I L 7750 2350 60
 F7 "DAC" I R 8750 3250 60 
 F8 "Sine_ON" I L 7750 3750 60 
 F9 "Wire_Break" I L 7750 3600 60 
+F10 "Sine_APP" I L 7750 3500 60 
 $EndSheet
 $Sheet
 S 2150 4350 1000 750 
@@ -405,16 +406,17 @@ F2 "Sine_ON" I R 4950 3750 60
 F3 "Sine" I L 3850 3750 60 
 $EndSheet
 $Sheet
-S 3850 2050 1100 1050
+S 3850 2050 1100 1200
 U 5B05474E
 F0 "Voltage_Divider" 60
 F1 "Voltage_Divider.sch" 60
 F2 "AN2" I R 4950 2250 60 
 F3 "AN3" I R 4950 2350 60 
-F4 "Wire_Break" I R 4950 2950 60 
+F4 "Wire_Break" I R 4950 3100 60 
 F5 "Sine" I L 3850 2950 60 
 F6 "AN8" I R 4950 2700 60 
 F7 "AN9" I R 4950 2800 60 
+F8 "Sine_APP" I R 4950 3000 60 
 $EndSheet
 Wire Wire Line
 	8750 3250 9400 3250
@@ -423,7 +425,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 2350 5650 2350
 Wire Wire Line
-	5300 2950 4950 2950
+	5300 3100 4950 3100
 Wire Wire Line
 	4950 2700 5650 2700
 Wire Wire Line
@@ -431,7 +433,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3600 7750 3600
 Wire Wire Line
-	5300 2950 5300 3600
+	5300 3100 5300 3600
 Wire Wire Line
 	4950 3750 7750 3750
 Wire Wire Line
@@ -474,4 +476,12 @@ F 3 "" H 4150 7300 50  0001 C CNN
 	1    4150 7350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 3000 5400 3000
+Wire Wire Line
+	5400 3000 5400 3500
+Wire Wire Line
+	5400 3500 7600 3500
+Wire Wire Line
+	7600 3500 7750 3500
 $EndSCHEMATC
